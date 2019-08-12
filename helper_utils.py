@@ -42,7 +42,7 @@ def parse_inventory_xml(xml):
     
     return sku_inventory_df
 
-def merge_katoche_dfs(cat_df, item_cat_df, item_df, sku_inventory_df):
+def merge_katoche_dfs(item_cat_df, item_df, sku_inventory_df):
     # item import sample
     # name, sku, price
 
